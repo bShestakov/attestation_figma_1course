@@ -1,0 +1,460 @@
+:root {
+    --blue: #2000E7;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: Jost;
+    src: url("../fonts/Jost/static/Jost-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Jost;
+    src: url("../fonts/Jost/static/Jost-Bold.ttf");
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    margin: 0px auto;
+    font-family: Poppins;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 45px;
+    margin-left: 78px;
+    height: 72px;
+    width: 251px;
+    color: #0E0578;
+
+}
+
+.top-menu {
+    display: inline-block;
+    margin-top: 59px;
+    margin-left: 241px;
+    padding: 0;
+}
+
+.top-menu ul {
+    padding: 0;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin-right: 79px;
+}
+
+.top-menu li:last-child {
+    margin-right: 0;
+}
+
+.top-menu a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #686565;
+}
+
+main {
+    margin-top: 201px;
+}
+
+.intro,
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-left: 78px;
+}
+
+.intro .text-side {
+    width: 616px;
+}
+
+.intro .text-side h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--blue);
+}
+
+.intro .text-side span {
+    color: #F2BD00;
+}
+
+.intro .text-side .iam {
+    margin: 0;
+    width: 447px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--blue);
+}
+
+.intro .text-side p {
+    color: #383838;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.intro .photo-side {
+    margin-top: 22px;
+    margin-left: 78px;
+    background-image: url(../images/Rec\ 3.jpeg);
+    background-position: center center;
+    background-size: cover;
+    width: 564px;
+    height: 564px;
+    border-bottom-left-radius: 191px;
+    box-shadow: 36px -32px rgb(135, 117, 249, 0.5);
+}
+
+.intro form {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.intro button,
+.about button {
+    font-size: 24px;
+    line-height: 36px;
+    width: 246px;
+    height: 72px;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    box-shadow: 11px 21px 15px 6px rgb(0, 0, 0, 0.25);
+}
+
+.intro .btn1,
+.about button {
+    background-color: var(--blue);
+    color: #FFFFFF;
+}
+
+.intro .btn2 {
+    margin-left: 78px;
+    background-color: transparent;
+    color: var(--blue);
+}
+
+.about {
+    margin-left: 0;
+    margin-top: 162px;
+    height: 910px;
+    background-color: rgb(67, 186, 253, 0.06);
+}
+
+.about .text-side {
+    margin: auto;
+    padding-left: 46px;
+    width: 415px;
+}
+
+.about h2 {
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color: var(--blue);
+}
+
+.about p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.about .btn1 {
+    margin-left: 22px;
+}
+
+.about .btn1:hover {
+    background-color: #F2BD00;
+}
+
+.about .photo-side {
+    margin-left: 78px;
+    background-image: url(../images/11.png);
+    background-position: center center;
+    background-size: cover;
+    width: 925px;
+    height: 925px;
+}
+
+.projects {
+    margin-top: 162px;
+    background-color: rgb(255, 214, 150, 0.2);
+    height: 910px;
+}
+
+.projects .text-side {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #3B1FEA;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.projects p,
+.contacts p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+}
+
+.projects .items {
+    margin-left: 108px;
+    margin-top: 46px;
+}
+
+.projects [class^="column"] {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.items * {
+    width: 248px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 46px;
+}
+
+.projects .column-2 {
+    margin-left: 186px;
+    margin-right: 217px;
+}
+
+.contacts {
+    margin-top: 272px;
+    background-color: rgb(67, 186, 253, 0.06);
+    background-image: url(../images/Saly-13.png);
+    background-size: 958px 958px;
+    background-repeat: no-repeat;
+    background-position: 122% 60%;
+}
+
+.contacts .text-side {
+    text-align: center;
+}
+
+.contacts h2 {
+    color: var(--blue);
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.27em;
+    font-weight: bold;
+}
+
+.contacts .input {
+    display: inline-block;
+    width: 653px;
+    margin-left: 66px;
+    margin-top: 159px;
+}
+
+.input form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts input,
+.contacts textarea,
+.contacts button {
+    width: 653px;
+    margin-bottom: 84px;
+    box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+    border: none;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.contacts input,
+.contacts button {
+    height: 94px;
+}
+
+.contacts textarea {
+    height: 265px;
+    resize: none;
+}
+
+.contacts button {
+    width: 327px;
+    background-color: #FFFFFF;
+    ;
+}
+
+footer {
+    background-color: rgb(255, 214, 150, 0.2);
+    font-family: Jost;
+    height: 809px;
+    margin-top: 200px;
+}
+
+.footer-blocks {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 132px;
+    margin-bottom: 50px;
+}
+
+
+.logo-syde h2 {
+    font-family: Poppins;
+    margin-left: 73px;
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color: #0E0578;
+}
+
+.logo-syde form {
+    position: relative;
+}
+
+.logo-syde input {
+    position: absolute;
+    width: 323px;
+    height: 97px;
+    margin-left: 26px;
+    border-radius: 30px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.logo-syde button {
+    position: absolute;
+    width: 178px;
+    height: 99px;
+    margin-left: 288px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F965FC;
+    color: #FFFFFF;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.platform h2,
+.help h2,
+.contact h2 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.footer-blocks h2 {
+    margin-top: 0px;
+}
+
+.platform ul,
+.help ul,
+.contact ul {
+    font-size: 31px;
+    font-weight: normal;
+    line-height: 44.8px;
+}
+
+.footer-blocks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.help ul {
+    width: 305px;
+}
+
+.contact ul {
+    width: 280px;
+}
+
+.platform {
+    margin-left: 104px;
+}
+
+.help {
+    margin-left: 107px;
+}
+
+.footer-blocks li {
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 1334px;
+    border: 3px solid #000000;
+}
+
+.copyright-area {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    width: 1440px;
+    margin-top: 55px;
+}
+
+.copyright {
+    width: 639px;
+    font-size: 32px;
+    line-height: 46.24px;
+    margin-left: 46px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 504px;
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: #F2BD00;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #F2BD00;
+}
