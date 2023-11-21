@@ -27,7 +27,7 @@
 }
 
 html {
-    background-color: black;
+    background-color: #3B1FEA;
 }
 
 body {
@@ -123,7 +123,7 @@ main {
 .intro .photo-side {
     margin-top: 22px;
     margin-left: 78px;
-    background-image: url(../images/Rec\ 3.jpeg);
+    background-image: url(../images/Rec_\ 3.jpeg);
     background-position: center center;
     background-size: cover;
     width: 564px;
@@ -187,10 +187,6 @@ main {
 
 .about .btn1 {
     margin-left: 22px;
-}
-
-.about .btn1:hover {
-    background-color: #F2BD00;
 }
 
 .about .photo-side {
@@ -451,7 +447,6 @@ hr {
 }
 
 button:hover {
-    background-color: #F2BD00;
     cursor: pointer;
 }
 
